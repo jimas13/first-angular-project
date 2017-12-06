@@ -15,7 +15,7 @@ import { QuoteService } from './quote-service/quote.service';
   ],
   imports: [
     BrowserModule,
-    HttpClientModule
+    HttpClientModule,
   ],
   providers: [QuoteService],
   bootstrap: [AppComponent]

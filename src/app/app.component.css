@@ -1,0 +1,14 @@
+h1{
+    font-family: helvetica;
+    margin: 100px auto 0 auto;
+    width: 300px;
+}
+div{
+    background-color: #156;
+    padding: 20px;
+    margin: 50px auto;
+    border: 2px solid;
+    width: 400px;
+    font-family: helvetica;
+    border-radius: 5px;
+}
