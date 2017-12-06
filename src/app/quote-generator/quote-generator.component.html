@@ -1,4 +1,4 @@
 <div id="quote-machine" *ngIf='myQuote' (quoteEmit)='updateQuote($event)'>
   <p id="quote-text">{{myQuote.quoteText}}</p>
-  <p id="quote-author">{{myQuote.quoteAuthor}}</p>
+  <p id="quote-author">-{{myQuote.quoteAuthor}}</p>
 </div>

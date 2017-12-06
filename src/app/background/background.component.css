@@ -1,0 +1,23 @@
+button{
+    font-family:verdana;
+    font-size: 15px;
+    font-style:bold;
+}
+h2{
+    margin-top:5px;
+    text-align: center;
+}
+hr{
+    border:0.5px solid black;
+    width: 60%;
+    margin:10px auto;
+}
+#twitter-share{
+    margin: 10px 60px;
+    border-radius: 10px;
+}
+#new-quote{
+    float: center;
+    margin: 10px 60px;
+    border-radius: 10px;
+}

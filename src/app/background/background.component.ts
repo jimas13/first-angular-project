@@ -4,7 +4,8 @@ import { QuoteService } from '../quote-service/quote.service';
 
 @Component({
   selector: 'app-background',
-  templateUrl: './background.component.html'
+  templateUrl: './background.component.html',
+  styleUrls: ['./background.component.css']
 })
 export class BackgroundComponent {
   title = 'app';
@@ -17,8 +18,7 @@ export class BackgroundComponent {
     this._quoteService.getQuote()
     .subscribe(newQuote =>{
       this.refreshedQuote = newQuote;
-      console.log(this.refreshedQuote);
-      this.onClick();      
+      console.log(this.refreshedQuote);      
     },
     err=> console.log(err)
   );

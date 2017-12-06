@@ -1,6 +1,8 @@
 <h2>Random Quote Generator</h2>
-<app-quote></app-quote>
-<button id="twitter-share" class="btn btn-primary">TWITTER
+<hr>
+<app-quote [changeQuote]='refreshedQuote'></app-quote>
+<hr>
+<button class="btn btn-primary" id="twitter-share" class="btn btn-primary">TWITTER
 </button>
-<button id="new-quote" (click)="fetchNewQuote()">QUOTE
+<button class="btn btn-primary" id="new-quote" (click)="fetchNewQuote()">QUOTE
 </button>

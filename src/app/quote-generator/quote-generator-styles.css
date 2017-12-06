@@ -1,3 +1,7 @@
 #quote-text{
     font-family:verdana;
+    text-align:center;
+}
+#quote-author{
+    font-style: italic;
 }
